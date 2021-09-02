@@ -1,4 +1,4 @@
-mystr = "Vrushitisgoodboy"
+mystr = "vrushit is good boy"
 """print(mystr[3])
 print(len(mystr)) #for knowing the length of string
 print(mystr[0:3]) #for stating to given numebr
@@ -20,3 +20,9 @@ print(mystr.endswith("bboy")) #for checking given ends in str
 
 print(mystr.count("V"))
 print(mystr.count("o")) #count fun is for counting the given char
+
+print(mystr.capitalize()) #for captaling first word in whole str
+print(mystr.find("is")) #for finding something
+print(mystr.lower()) #for lower all word
+print(mystr.upper()) #for upper all word
+print(mystr.replace("is", "are")) #for for replace
