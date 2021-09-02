@@ -1,5 +1,5 @@
-mystr = "Vrushit is good boy"
-print(mystr[3])
+mystr = "Vrushitisgoodboy"
+"""print(mystr[3])
 print(len(mystr)) #for knowing the length of string
 print(mystr[0:3]) #for stating to given numebr
 print(mystr[0:7]) #for stating to given numebr
@@ -11,3 +11,7 @@ print(mystr[::2])
 print(mystr[-1:])
 print(mystr[-4:-2])
 print(mystr[-4:-2:-1])
+"""
+
+print(mystr.isalnum()) #for cheacking alfanumeric
+print(mystr.isalpha()) #for cheacking alfanumeric
