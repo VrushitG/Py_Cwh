@@ -15,3 +15,8 @@ print(mystr[-4:-2:-1])
 
 print(mystr.isalnum()) #for cheacking alfanumeric
 print(mystr.isalpha()) #for cheacking alfanumeric
+
+print(mystr.endswith("bboy")) #for checking given ends in str
+
+print(mystr.count("V"))
+print(mystr.count("o")) #count fun is for counting the given char
